@@ -1,6 +1,10 @@
-# HRV-Meditation-and-Sleep-Entropy
+# HRV Meditation and Sleep Entropy
 
-This repository contains the computational analysis pipeline used to study heart rate variability (HRV) complexity during Yoga, Tai Chi meditation, and deep sleep.
+Entropy and visibility graph analysis of heart rate variability during Yoga, Tai Chi meditation, and deep sleep.
+
+## Overview
+
+This repository contains Python code and computational pipelines used to analyze nonlinear cardiac dynamics from ECG-derived RR intervals.
 
 ## Methods
 
@@ -14,12 +18,17 @@ This repository contains the computational analysis pipeline used to study heart
 ## Repository Structure
 
 ```text
+data/           Raw and processed data
 notebooks/      Google Collab notebooks
 src/            Reusable Python functions
-data/           Raw and processed data
-results/        Figures and tables
+results/        Figures and outputs
+docs/           Notes and manuscript-related files
 ```
 
 ## Dependencies
 
-See `requirements.txt`
+See `requirements.txt`.
+
+## Authors
+
+Noe Federico Lozano Vázquez and Eunice Hernández Alvarado
